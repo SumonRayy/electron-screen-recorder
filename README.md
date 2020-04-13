@@ -1,5 +1,5 @@
 # A Screen Capturing Desktop Application 
-<p> A Desktop Application to record a specific Window or the entire desktop screen , & save it as a Video file .</p> 
+<p> <i>A Desktop Application to record a specific Window or the entire desktop screen , & Let's you to save it as a Video file .</i></p> 
 This Application is build with "electron.js", "bulma-css" & "electron-forge".
 
 
@@ -22,4 +22,4 @@ This Application is build with "electron.js", "bulma-css" & "electron-forge".
 ### `npm run make`
 • after that , Electron Forge will generate you platform specific distributables for you to share with everyone.
 
-A special thanks to [fireship.io](https://fireship.io/) for the Awesome Tutorials & Courses .
+A special thanks to [fireship.io](https://fireship.io/) for the Awesome Tutorials & Courses on ElectronJS .
