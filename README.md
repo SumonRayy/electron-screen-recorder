@@ -1,5 +1,5 @@
 # A Screen Capturing Desktop Application 
-![version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+![version](https://img.shields.io/badge/version-1.0.1-orange.svg)
 ![author](https://img.shields.io/badge/Created--by-SumonRayy-blue)
 ![follow](https://img.shields.io/github/followers/SumonRayy?label=Follow&style=social)
 <p> <i>A Desktop Application to record a specific Window or the entire desktop screen , & Let's you to save it as a Video file .</i></p> 
