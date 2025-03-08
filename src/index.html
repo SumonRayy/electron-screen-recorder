@@ -3,24 +3,46 @@
   <head>
     <meta charset="UTF-8">
     <title>Pixel Capture</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="index.css">
-
-    <script defer src="render.js"></script>
   </head>
-  <body>
-    <h1><strong>⚡ A Application for Screen Recording!</strong></h1>
-    <br><centre>
-    <video></video>
+  <body class="has-background-light">
+    <div class="container">
+      <div class="box mt-5">
+        <h1 class="title is-3 has-text-centered">
+          <i class="fas fa-video"></i> Pixel Capture
+        </h1>
+        <h2 class="subtitle has-text-centered">Professional Screen Recording Made Simple</h2>
+        
+        <div class="video-container mb-4">
+          <video class="screen-preview"></video>
+        </div>
 
-    <button id="startBtn" class="button is-success">Start</button>
-    <button id="stopBtn"  class="button is-warning">Stop</button>
+        <div class="buttons is-centered mb-4">
+          <button id="startBtn" class="button is-success is-medium">
+            <span class="icon">
+              <i class="fas fa-play"></i>
+            </span>
+            <span>Start</span>
+          </button>
+          <button id="stopBtn" class="button is-danger is-medium">
+            <span class="icon">
+              <i class="fas fa-stop"></i>
+            </span>
+            <span>Stop</span>
+          </button>
+        </div>
 
-    <hr />
-
-    <button id="videoSelectBtn" class="button is-outlined">
-      Choose a Video Source
-    </button>
-  </centre>
+        <div class="has-text-centered">
+          <button id="videoSelectBtn" class="button is-info is-outlined">
+            <span class="icon">
+              <i class="fas fa-desktop"></i>
+            </span>
+            <span>Choose Video Source</span>
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
