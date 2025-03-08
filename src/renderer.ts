@@ -1,6 +1,6 @@
-const { desktopCapturer } = require('electron');
+const { desktopCapturer, dialog } = require('@electron/remote');
 const { writeFile } = require('fs').promises;
-const { dialog, Menu, MenuItem } = require('@electron/remote');
+const { Menu, MenuItem } = require('@electron/remote');
 
 interface VideoSource {
   id: string;
@@ -43,7 +43,7 @@ async function getVideoSources(): Promise<void> {
   });
 
   const menu = new Menu();
-  inputSources.forEach(source => {
+  inputSources.forEach((source: VideoSource) => {
     menu.append(new MenuItem({
       label: source.name,
       click: () => selectSource(source)
