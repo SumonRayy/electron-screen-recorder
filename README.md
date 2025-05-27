@@ -1,4 +1,4 @@
-# Pixel Capture 🎥 
+# Pixel Capture : electron-screen-recorder 🎥 
 
 ![version](https://img.shields.io/badge/version-1.0.1-orange.svg)
 ![author](https://img.shields.io/badge/Created--by-SumonRayy-blue)
